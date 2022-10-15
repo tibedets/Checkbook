@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "211659638402",
+    "firebase_url": "https://checkbookapp-b59ac.firebaseio.com",
+    "project_id": "checkbookapp-b59ac",
+    "storage_bucket": "checkbookapp-b59ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211659638402:android:07fa5f69a361fe80",
+        "android_client_info": {
+          "package_name": "com.example.checkbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211659638402-gb96stkenniefdi4katvk2k99gbtrlek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyZ10ojZd7yGgcyNfK-ZloFOSKFIPISsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211659638402-gb96stkenniefdi4katvk2k99gbtrlek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

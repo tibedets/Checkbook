@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mask"
+    tools:context=".Main2Activity">
+
+    <ScrollView
+        android:layout_width="357dp"
+        android:layout_height="456dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnback"
+        app:layout_constraintVertical_bias="0.96">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="346dp"
+            android:layout_height="620dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="She never means to do it, but she steals people’s dreams.  Is it immoral? Not really.  If she purposefully went out and violated someone’s mind, grasping their secret thoughts, and made them happen for herself that would be different.   She goes to sleep like anyone.  Does a nightly ritual including a bath, brushing of teeth and some quiet jazz while reading a good book.  She lays her head down on her pillow, the ceiling fan making quiet ticking noises in the darkness.  In the middle of a dream, usually an ordinary life style dream, she’s transported into someone else’s dream.  It’s always an amazing moment of triumph.  The rush of stealing someone’s private emotions.  Feeling what they feel.  Memories that aren’t hers.  Pure exhilaration.   Occasionally, she wakes up with treasures from the stolen moments.  Someone wins the lottery, she wakes up with a bag of cash in her closet.  They buy a new mountain bike, and she wakes up with it on her back porch.  A perk of being at the whim of whatever force moves her around in the night. The trouble started almost two weeks ago.  Trouble is the wrong word.  Nightmare is what it was.  Terror times ten.  She had been walking in the mall holding hands with someone’s husband.  They were at the jewelry store when the statue in the fountain started staring at her.  Thinking she imagined it she kept about her business.  The head had moved.  It was running at her.  She screamed and was pulled across minds into a new car.   Upshifting, she pushed the pedal down while she hugged the wall on the curve.   The beast came out of nowhere, running up the cliff from below and tackled the car.  The beast spoke inside her mind.  Threats, taunts, and teases.  She woke in a sweat.  Blood trickled down from her temple. "
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnNewAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="New"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnback"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
